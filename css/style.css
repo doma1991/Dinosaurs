@@ -1,0 +1,98 @@
+body {
+  font-family: arial;
+  background-color: #fff;
+  border: solid #ff3385 30px;
+  border-radius: 13px;
+  margin: -5px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border: solid #0066ff 8px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 500px;
+  background-color: #ffff80;
+ margin: 10px;
+  margin-top: 28px;
+}
+
+header {
+  position: static;
+   height: 50px;
+ width: 120px;
+  border-bottom: solid #0066ff 4px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff3385;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#Dinos {
+  color: #ff3385;
+}
+
+#Dinos:hover {
+  color: #1aff1a;
+}
+
+.nav-link {
+  border-bottom: solid #0066ff 4px;
+  border-top: solid #0066ff 4px;
+ height: 50px;
+ width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-doc {
+  position: static;
+  margin-left: 170px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #1aff1a;
+}
+
+.yellow-dino {
+  height: 60px;
+  width: auto;
+  margin: 10px;
+}
+
+.green-dino {
+  height: auto;
+  width: 40px;
+  margin: 10px;
+}
+
+.y-dino {
+  height: 60px;
+  width: auto;
+  margin: 10px;
+}
+
+.g-dino {
+  height: 60px;
+  width: auto;
+}
+
+footer {
+   position: static;
+  margin-left: 170px;
+  margin-right: 20px;
+  color: pink; 
+}
+
+
+@media (min-width: 1000px)  { footer {color: blue;}}
+  
+
