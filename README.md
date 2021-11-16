@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/79788f41-c4b5-4c09-a7a9-49145ce10f05/deploy-status)](https://app.netlify.com/sites/doms-dinosaurs/deploys)
+
 Technical documentation page built for the FreeCodeCamp resposive web design certification
 
 HTML/CSS only.
